@@ -1,6 +1,6 @@
 {
     "name": "@titanpl/mongo",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "MongoDB client for Titan Planet Framework",
     "main": "index.js",
     "type": "module",
@@ -23,6 +23,7 @@
     "files": [
         "index.js",
         "titan.json",
+        "utils",
         "index.d.ts",
         "native.js",
         "*.h",

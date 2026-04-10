@@ -8,7 +8,6 @@
  * 
  * @example
  * import { mongo } from "@titanpl/mongo";
- * import { t } from "@titanpl/core";
  * 
  * const client = mongo(t.env.DB_URI);
  * const db = client.db("sample_mflix");

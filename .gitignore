@@ -18,7 +18,6 @@ go.sum
 
 # Titan PL specific
 .titan_test_run/
-test/
 mkctx/
 
 # IDE/Editor

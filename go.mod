@@ -1,4 +1,4 @@
-module github.com/t8nlab/mongo
+module github.com/t8nlab/mongoDB
 
 go 1.25.0
 

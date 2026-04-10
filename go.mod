@@ -1,4 +1,4 @@
-module github.com/t8nlab/tom
+module github.com/t8nlab/mongo
 
 go 1.25.0
 

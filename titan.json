@@ -1,0 +1,8 @@
+{
+    "name": "@titanpl/mongo",
+    "type": "native",
+    "entry": "index.js",
+    "native": {
+        "windows": "mongo.dll"
+    }
+}

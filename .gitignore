@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Build artifacts
+*.dll
+*.so
+*.dylib
+*.h
+*.exe
+native/target/
+
+dist
+build
+
+# Go build info
+go.sum
+
+# Titan PL specific
+.titan_test_run/
+test/
+mkctx/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lock files
+package-lock.json
+
+# Build info
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local

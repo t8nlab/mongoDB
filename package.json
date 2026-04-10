@@ -1,0 +1,41 @@
+{
+    "name": "@titanpl/mongo",
+    "version": "0.0.1",
+    "description": "MongoDB client for Titan Planet Framework",
+    "main": "index.js",
+    "type": "module",
+    "types": "index.d.ts",
+    "scripts": {
+        "build:native": "go build -buildmode=c-shared -o mongo.dll"
+    },
+    "keywords": [
+        "titan",
+        "titanpl",
+        "titan-planet",
+        "db",
+        "mongo",
+        "mongodb",
+        "database",
+        "nosql"
+    ],
+    "author": "ezetgalaxy",
+    "license": "ISC",
+    "files": [
+        "index.js",
+        "titan.json",
+        "index.d.ts",
+        "native.js",
+        "*.h",
+        "*.dll",
+        "*.so",
+        "*.dylib",
+        "README.md"
+    ],
+    "devDependencies": {
+        "esbuild": "^0.27.2"
+    },
+    "dependencies": {
+        "@titanpl/core": "4.0.0",
+        "@titanpl/native": "^7.0.1"
+    }
+}

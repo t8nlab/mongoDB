@@ -3,7 +3,11 @@
 A high-performance, native MongoDB extension for the Titan Planet Framework, built with Go.
 
 ## Installation
+Install the extension in your TitanPl project:
 
+```bash
+npm install @titanpl/mongo
+```
 Add the extension to your Titan project's `tanfig.json`:
 
 ```json
@@ -28,10 +32,9 @@ Create a connection in a shared file (e.g., `app/db.js`):
 
 ```javascript
 import { mongo } from "@titanpl/mongo";
-import { t } from "@titanpl/core";
 
 // Connect once at module load
-// Ensure DB_URI is set in your .env or Titan environment
+// Ensure DB_URI is set in your .env
 const client = mongo(t.env.DB_URI);
 
 export const db = client.db("my_database");
